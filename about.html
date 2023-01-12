@@ -9,82 +9,108 @@
     <title>Davina.Inc - about</title>
 </head>
 <body>
-    <header>
-        <div class="logomark">
-            <a href="index.html" target="_self"><img src="logomark.svg" width="100px"></a>
-        </div>
-            <div id="mine">
-                <p class="davina"><a href="index.html" target="_self">Davina<br>Shehu</a></p>
-            </div>           
-        <nav>
-            <p><a href="projects.html" class="navbar-item">Projects</a></p>
-            <!--<p><a href="about.html" class="navbar-item">About</a></p>-->
-            <p><a href="services.html" class="navbar-item">Services</a></p>
-            <p><a href="" class="navbar-item">Contact</a></p>
-        </nav>
-    </header>
-    <main>
-        <div>
-            <img src="pictureday.png" width="20%" id="pictureday">
-            <div class="aboutme-text">
-                <h2>
-                    davina ~ designer
-                </h2>
-                <p> Hey, this is my about page, so I have to say something about myself. 
-                    Sometimes it is hard to introduce yourself because you know yourself 
-                    so well that you do not know where to start with. Let me give a try 
-                    to see what kind of image you have about me through my self-description. 
-                    I hope that my impression about myself and your impression about me are 
-                    not so different. Here it goes... 
-                    I am very enthusiastic about learning new things especially when it comes
-                    to the "aesthetic of things" and their design.
-                    I'm proficient in various softwares and tools because once they intrigue me,
-                    I learn how to use them and become great at it. So I like to think of my as a
-                    "Jack of all trades | mastering all". In summary, I am a Nerd!
-                </p>
-                <div class="softwares">
-                    <img src="adobe-illustrator.png" width="50px">
-                    <img src="adobe-photoshop.png" width="50px">
-                    <img src="adobe-indesign.png" width="50px">
-                    <img src="premiere.png" width="50px">
-                    <img src="motherboard.png" width="50px">
-                    <img src="c-.png" width="50px">
-                    <img src="c-sharp.png" width="50px">
-                    <img src="python.png" width="50px">
-                    <img src="html-5.png" width="50px">
-                    <img src="css-3.png" width="50px">
-                    <img src="js.png" width="50px">
+
+    <header> 
+        <div class="container container-nav">        
+            <nav>
+                <div class="nav-title">
+                    <img src="logomark.png" class="nav-image">
+                    <a href="index.html" target="_self"  class="nav-mark">Davina<br>Shehu</a>
+                    <ion-icon name="reorder-three-outline" class="nav-toggle"></ion-icon>
                 </div>
-            </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="navbar-item ">Home</a></li>
+                    <li><a href="about.html" target="_self" class="navbar-item item2 current-page">About</a></li>
+                    <li><a href="projects.html" class="navbar-item item3">Projects</a></li>
+                    <li><a href="#" class="navbar-item item4">Contact</a></li>
+                </ul>
+                
+            </nav>
         </div>
-    </main>
+    </header>
+
+
+    <div class="container container-main">
+        <main>
+            <div class="about-me-section">
+                <img src="pictureday.png" class="about-me-image">
+                <div class="aboutme-text">
+                    <h2>
+                        Davina | Designer | Developer
+                    </h2>
+                    <p> Hey, this is my about page, so I have to say something about myself. 
+                        Sometimes it is hard to introduce yourself because you know yourself 
+                        so well that you do not know where to start with. Let me give a try 
+                        to see what kind of image you have about me through my self-description. 
+                        I hope that my impression about myself and your impression about me are 
+                        not so different. Here it goes... 
+                        I am very enthusiastic about learning new things especially when it comes
+                        to the "aesthetic of things" and their design.
+                        I'm proficient in various softwares and tools because once they intrigue me,
+                        I learn how to use them and become great at it. So I like to think of my as a
+                        "Jack of all trades | mastering all". In summary, I am a Nerd!
+                    </p>
+                    
+                    <p>
+                        Hé, c'est ma page à propos, donc je dois dire quelque chose sur moi.
+                        Parfois, il est difficile de se présenter parce que vous vous connaissez
+                        si bien que vous ne savez pas par où commencer. Laisse moi essayer
+                        pour voir quel genre d'image vous avez de moi à travers mon auto-description.
+                        J'espère que mon impression sur moi-même et votre impression sur moi sont
+                        pas si différent. Voilà, ça va...
+                        Je suis très enthousiaste à l'idée d'apprendre de nouvelles choses, surtout quand il s'agit
+                        à "l'esthétique des choses" et à leur conception.
+                        Je maîtrise divers logiciels et outils car une fois qu'ils m'intriguent,
+                        J'apprends à les utiliser et je deviens bon dans ce domaine. Donc j'aime penser à moi comme un
+                        "Le touche-à-tout | tout maîtriser". Bref, je suis un Nerd !
+                    </p>
+                </div>    
+            </div>
+            <div class="software">
+                        <img src="adobe-illustrator.png" class="software-element">
+                        <img src="adobe-photoshop.png" class="software-element">
+                        <img src="adobe-indesign.png" class="software-element">
+                        <img src="premiere.png" class="software-element">
+                        <img src="motherboard.png" class="software-element">
+                        <img src="c-.png" class="software-element">
+                        <img src="c-sharp.png" class="software-element">
+                        <img src="python.png" class="software-element">
+                        <img src="html-5.png" class="software-element">
+                        <img src="css-3.png" class="software-element">
+                        <img src="js.png" class="software-element">
+            </div>
+        </main>
+    </div>
     <footer>
-        <nav id="footer">
+        <div class="container container-footer">
             <div class="footer-item"> 
-                <img src="phone-call.svg" width="20px" height="20px">
+                <ion-icon name="call-outline" class="footer-element"></ion-icon>
                 <p class="number">+234 (901) - 950 - 1000</p>
             </div>
             <div class="footer-item"> 
-                <img src="envelope.svg" width="20px" height="20px">
+                <ion-icon name="mail-outline"></ion-icon>
                 <p class="number">davina7503@gmail.com</p>
             </div>
             <div class="footer-item"> 
-                <a href="https://www.instagram.com/isthisdavi.designs/" target="_blank"><img src="instagram.svg" width="20px" height="20px">
-                <p class="number">isthisdavi.designs</p></a>
+                <a href="https://www.instagram.com/isthisdavi.designs/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <p class="number">isthisdavi.designs</p>
             </div>
             <div class="footer-item"> 
-                <a href="https://twitter.com/isthisdavi" target="_blank"><img id="twitter"src="twitter.svg" width="35px" height="25px">
-                <p class="twitter">isthisdavi</p></a>
+                <a href="https://twitter.com/isthisdavi" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                <p class="twitter">isthisdavi</p>
             </div>
             <div class="footer-item"> 
                 <a href="https://www.google.com/maps/place/Sokoto/@10.5207,7.4386,6z/data=!4m
-                5!3m4!1s0x11b7c33970ffd151:0x608282e42f1d2d31!8m2!3d13.0058731!4d5.2475518ns/" target="_blank"> <img src="marker.svg" width="20px" height="20px">
-                <p class="number">Sokoto, NG</p></a>
+                5!3m4!1s0x11b7c33970ffd151:0x608282e42f1d2d31!8m2!3d13.0058731!4d5.2475518ns/" target="_blank"><ion-icon name="location-outline"></ion-icon></a>
+                <p class="number">Sokoto, NG</p>
             </div>
-            <div class="footer-item"> 
+            <div class="footer-item foot-text"> 
                 <span>© 2022 All rights reserved by Davina</span>
             </div>
-        </nav>
+        </div>
     </footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
